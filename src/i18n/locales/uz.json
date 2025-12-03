@@ -1,0 +1,65 @@
+{
+  "_comment": "REVIEW REQUIRED: native speaker verification recommended.",
+  "common": {
+    "title": "ZAYTUN Halol Go'sht Do'koni",
+    "nav": {
+      "home": "Bosh sahifa",
+      "products": "Mahsulotlar",
+      "contact": "Aloqa",
+      "cart": "Savat"
+    },
+    "footer": {
+      "address": "Manzil",
+      "hours": "Ish vaqti",
+      "contact": "Aloqa",
+      "rights": "Barcha huquqlar himoyalangan."
+    },
+    "theme": {
+      "light": "Yorug'",
+      "dark": "Qorong'i",
+      "system": "Tizim"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Yangi Halol Go'sht",
+      "subtitle": "Varshavadagi eng yaxshi sifat",
+      "cta": "Xarid qiling"
+    },
+    "features": {
+      "quality": "Yuqori Sifat",
+      "qualityDesc": "Ishonchli mahalliy fermerlardan olingan yuqori sifatli go'sht.",
+      "halal": "100% Halol",
+      "halalDesc": "Islom qoidalariga muvofiq tayyorlangan 100% sertifikatlangan halol go'sht.",
+      "fresh": "Doimo Yangi",
+      "freshDesc": "Eng yaxshi ta'm va tuzilishni ta'minlash uchun har kuni yangi kesiladi."
+    }
+  },
+  "products": {
+    "title": "Bizning mahsulotlar",
+    "search": "Qidirish...",
+    "filter": "Filtr",
+    "categories": "Toifalar",
+    "price": "Narx",
+    "addToCart": "Savatga qo'shish",
+    "outOfStock": "Qolmagan"
+  },
+  "cart": {
+    "title": "Savatingiz",
+    "empty": "Savatingiz bo'sh",
+    "total": "Jami",
+    "checkout": "Buyurtma berish",
+    "remove": "O'chirish",
+    "processing": "Qayta ishlanmoqda...",
+    "successMessage": "Buyurtmangiz uchun rahmat! Bu demo buyurtma."
+  },
+  "contact": {
+    "title": "Biz bilan bog'laning",
+    "address": "Popularna 50/U4, 02-473 Varshava",
+    "phone": "+48 739 478 507",    "openInMaps": "Google Maps-da oching",    "hours": {
+      "wed_sat": "Chorshanba – Shanba: 9:00 – 20:00",
+      "sun": "Yakshanba: 9:00 – 19:00",
+      "mon_tue": "Dushanba – Seshanba: 9:00 – 20:00"
+    }
+  }
+}
