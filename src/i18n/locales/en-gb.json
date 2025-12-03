@@ -18,14 +18,6 @@
       "light": "Light",
       "dark": "Dark",
       "system": "System"
-    "categories": {
-      "title": "Categories",
-      "subtitle": "Browse our premium selections"
-    },
-    "featured": {
-      "title": "Featured Products",
-      "subtitle": "Handpicked halal favorites"
-    },
     }
   },
   "home": {
@@ -49,12 +41,12 @@
       "deliveryDesc": "Quick and reliable delivery service across Warsaw."
     },
     "categories": {
-      "title": "Explore Our Categories",
-      "subtitle": "Discover our wide range of premium halal products"
+      "title": "Categories",
+      "subtitle": "Browse our premium selections"
     },
     "featured": {
       "title": "Featured Products",
-      "subtitle": "Hand-picked selection of our finest offerings"
+      "subtitle": "Handpicked halal favorites"
     },
     "about": {
       "title": "Why Choose Zaytun?",
