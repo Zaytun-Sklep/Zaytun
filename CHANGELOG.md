@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - Initial project setup with Next.js 14 and Tailwind CSS.
-- Multi-language support architecture (13 languages).
+- Multi-language support (13 languages).
 - Theme system (Light/Dark/System).
 - Product catalog with filtering and search.
 - Shopping cart functionality with local storage persistence.

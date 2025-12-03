@@ -32,7 +32,34 @@
       "halal": "100% Halal",
       "halalDesc": "İslam qaydalarına uyğun hazırlanmış 100% sertifikatlı halal ət.",
       "fresh": "Həmişə Təzə",
-      "freshDesc": "Ən yaxşı dad və toxumanı təmin etmək üçün hər gün təzə doğranır."
+      "freshDesc": "Ən yaxşı dad və toxumanı təmin etmək üçün hər gün təzə doğranır.",
+      "variety": "Geniş Seçim",
+      "varietyDesc": "Premium ətdən halal pendir, şirniyyat və ərzaq məhsullarına qədər.",
+      "trust": "İcma Etibarı",
+      "trustDesc": "İlk gündən Varşavanın müsəlman icmasına sədaqətlə xidmət edirik.",
+      "delivery": "Sürətli Çatdırılma",
+      "deliveryDesc": "Bütün Varşavada sürətli və etibarlı çatdırılma xidməti."
+    },
+    "categories": {
+      "title": "Kateqoriyalarımızı Kəşf Edin",
+      "subtitle": "Premium halal məhsullarımızın geniş çeşidini kəşf edin"
+    },
+    "featured": {
+      "title": "Seçilmiş Məhsullar",
+      "subtitle": "Ən yaxşı təkliflərimizdən əl ilə seçilmiş kolleksiya"
+    },
+    "categories": {
+      "title": "Kateqoriyalar",
+      "subtitle": "Premium seçimlərimizi nəzərdən keçirin"
+    },
+    "featured": {
+      "title": "Seçilmiş məhsullar",
+      "subtitle": "Diqqətlə seçilmiş halal favoritlər"
+    },
+    "about": {
+      "title": "Niyə Zaytun?",
+      "subtitle": "Varşavada Əsas Halal Mağazanız",
+      "description": "Avropada keyfiyyətli halal məhsullar tapmağın çətinliyini başa düşürük. Zaytun sizə orijinal halal ət, pendir (heyvan mayası olmadan), şirniyyat (donuz jelatini olmadan) və ciddi halal standartlarına cavab verən diqqətlə seçilmiş digər məhsullar təqdim edir."
     }
   },
   "products": {

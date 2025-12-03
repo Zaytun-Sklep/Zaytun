@@ -32,7 +32,34 @@
       "halal": "%100 Helal",
       "halalDesc": "İslami usullere göre hazırlanan %100 sertifikalı helal et.",
       "fresh": "Her zaman taze",
-      "freshDesc": "En iyi tat ve dokuyu sağlamak için her gün taze kesilir."
+      "freshDesc": "En iyi tat ve dokuyu sağlamak için her gün taze kesilir.",
+      "variety": "Geniş Seçenek",
+      "varietyDesc": "Premium etlerden helal peynirlere, tatlılara ve bakkaliye ürünlerine kadar.",
+      "trust": "Topluluk Güveni",
+      "trustDesc": "İlk günden bu yana Varşova Müslüman topluluğuna özveriyle hizmet ediyoruz.",
+      "delivery": "Hızlı Teslimat",
+      "deliveryDesc": "Varşova genelinde hızlı ve güvenilir teslimat hizmeti."
+    },
+    "categories": {
+      "title": "Kategorilerimizi Keşfedin",
+      "subtitle": "Geniş premium helal ürün yelpazemizi keşfedin"
+    },
+    "featured": {
+      "title": "Öne Çıkan Ürünler",
+      "subtitle": "En iyi ürünlerimizden özenle seçilmiş koleksiyon"
+    },
+    "categories": {
+      "title": "Kategoriler",
+      "subtitle": "Premium seçeneklerimizi keşfedin"
+    },
+    "featured": {
+      "title": "Öne çıkan ürünler",
+      "subtitle": "Özenle seçilmiş helal favoriler"
+    },
+    "about": {
+      "title": "Neden Zaytun?",
+      "subtitle": "Varşova'da Lider Helal Dükkanınız",
+      "description": "Avrupa'da kaliteli helal ürünler bulmanın zorluğunu anlıyoruz. Zaytun, size otantik helal et, peynir (hayvansal mayasız), tatlılar (domuz jelatinsiz) ve katı helal standartlarını karşılayan özenle seçilmiş diğer ürünleri sunuyor."
     }
   },
   "products": {

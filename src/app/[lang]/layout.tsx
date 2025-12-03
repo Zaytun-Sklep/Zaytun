@@ -5,8 +5,12 @@ import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { CookieConsent } from '@/components/cookie-consent';
 
+// Ensure static params are generated only for valid languages
 export async function generateStaticParams() {
-  return languages.map((lang) => ({ lang }));
+  const languages = [
+    'en-gb','pl','tr','ar','fa','ru','az','ka','kk','ky','tk','uk','uz'
+  ]
+  return languages.map((lang) => ({ lang }))
 }
 
 export default async function LangLayout({

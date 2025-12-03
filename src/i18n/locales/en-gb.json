@@ -18,21 +18,48 @@
       "light": "Light",
       "dark": "Dark",
       "system": "System"
+    "categories": {
+      "title": "Categories",
+      "subtitle": "Browse our premium selections"
+    },
+    "featured": {
+      "title": "Featured Products",
+      "subtitle": "Handpicked halal favorites"
+    },
     }
   },
   "home": {
     "hero": {
-      "title": "Fresh Halal Meat",
-      "subtitle": "Best quality in Warsaw",
-      "cta": "Shop Now"
+      "title": "Premium Halal Products",
+      "subtitle": "Your Trusted Source for Quality Halal Meat, Cheese, Sweets & More",
+      "cta": "Explore Our Selection"
     },
     "features": {
       "quality": "Premium Quality",
-      "qualityDesc": "Premium cuts sourced from trusted local farms.",
+      "qualityDesc": "Premium products sourced from certified suppliers and local farms.",
       "halal": "100% Halal",
-      "halalDesc": "100% Certified Halal meat, prepared according to Islamic rites.",
+      "halalDesc": "All products are 100% Halal certified, meeting the highest standards.",
       "fresh": "Always Fresh",
-      "freshDesc": "Freshly cut daily to ensure the best taste and texture."
+      "freshDesc": "Freshly prepared daily to ensure the best taste and quality.",
+      "variety": "Wide Selection",
+      "varietyDesc": "From premium meats to halal cheese, sweets, and groceries.",
+      "trust": "Trusted by Community",
+      "trustDesc": "Serving Warsaw's Muslim community with dedication since day one.",
+      "delivery": "Fast Delivery",
+      "deliveryDesc": "Quick and reliable delivery service across Warsaw."
+    },
+    "categories": {
+      "title": "Explore Our Categories",
+      "subtitle": "Discover our wide range of premium halal products"
+    },
+    "featured": {
+      "title": "Featured Products",
+      "subtitle": "Hand-picked selection of our finest offerings"
+    },
+    "about": {
+      "title": "Why Choose Zaytun?",
+      "subtitle": "Your Premier Halal Shop in Warsaw",
+      "description": "We understand the challenge of finding quality halal products in Europe. Zaytun brings you authentic halal meat, cheese (without animal rennet), sweets (without pork gelatin), and other carefully selected products that meet strict halal standards."
     }
   },
   "products": {

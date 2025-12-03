@@ -32,7 +32,34 @@
       "halal": "100% Halal",
       "halalDesc": "Yslam kanonlaryna laýyklykda taýýarlanan 100% sertifikatly halal et.",
       "fresh": "Hemişe Täze",
-      "freshDesc": "Iň gowy tagamy we dokumany üpjün etmek üçün her gün täze kesilýär."
+      "freshDesc": "Iň gowy tagamy we dokumany üpjün etmek üçün her gün täze kesilýär.",
+      "variety": "Giň Saýlaw",
+      "varietyDesc": "Premium etden halal peýnire, süýjüliklere we azyk önümlerine çenli.",
+      "trust": "Jemgyýetiň Ynamy",
+      "trustDesc": "Ilkinji günden başlap Warşawanyň musulman jemgyýetine wepalylyk bilen hyzmat edýäris.",
+      "delivery": "Çalt Ýetirmek",
+      "deliveryDesc": "Ähli Warşawada çalt we ygtybarly ýetiriş hyzmaty."
+    },
+    "categories": {
+      "title": "Kategoriýalarymyzy Öwreniň",
+      "subtitle": "Premium halal önümlerimizin giň toplumyny açyň"
+    },
+    "featured": {
+      "title": "Saýlanan Harytlar",
+      "subtitle": "Iň gowy tekliplerimizden el bilen saýlanan kolleksiýa"
+    },
+    "categories": {
+      "title": "Kategoriýalar",
+      "subtitle": "Premium saýlawlarymyzy gözden geçiriň"
+    },
+    "featured": {
+      "title": "Saýlanan harytlar",
+      "subtitle": "Üns bilen saýlanan halal söýgüliler"
+    },
+    "about": {
+      "title": "Näme üçin Zaytun?",
+      "subtitle": "Warşawada Esasy Halal Dükanyňyz",
+      "description": "Ýewropada ýokary hilli halal önümlerini tapmagy çynlakaý düşünýäris. Zaytun size hakyky halal et, peýnir (haýwan fermentisiz), süýjülikler (doňuz jelatinsiz) we berk halal ölçeglerine laýyk gelýän üns bilen saýlanan beýleki önümleri hödürleýär."
     }
   },
   "products": {

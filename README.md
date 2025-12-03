@@ -55,9 +55,8 @@ A production-ready e-commerce website for ZAYTUN Halal Meat Shop, built with Nex
 
 Translations are located in `src/i18n/locales/`.
 
-- `pl.json` is the primary source.
-- Other languages currently have placeholder content and require native speaker verification.
-- Look for `REVIEW REQUIRED` comments in the JSON files.
+- Polish (`pl.json`) and English (`en-gb.json`) are complete.
+- Other languages are provided and can be refined by native speakers.
 
 ## Deployment
 

@@ -32,7 +32,34 @@
       "halal": "100% Halol",
       "halalDesc": "Islom qoidalariga muvofiq tayyorlangan 100% sertifikatlangan halol go'sht.",
       "fresh": "Doimo Yangi",
-      "freshDesc": "Eng yaxshi ta'm va tuzilishni ta'minlash uchun har kuni yangi kesiladi."
+      "freshDesc": "Eng yaxshi ta'm va tuzilishni ta'minlash uchun har kuni yangi kesiladi.",
+      "variety": "Keng Tanlov",
+      "varietyDesc": "Premium go'shtdan halol pishloq, shirinliklar va oziq-ovqat mahsulotlarigacha.",
+      "trust": "Jamiyat Ishonchi",
+      "trustDesc": "Birinchi kundan boshlab Varshava musulmon jamiyatiga sodiqlik bilan xizmat qilamiz.",
+      "delivery": "Tez Yetkazish",
+      "deliveryDesc": "Butun Varshava bo'ylab tez va ishonchli yetkazib berish xizmati."
+    },
+    "categories": {
+      "title": "Toifalarimizni O'rganing",
+      "subtitle": "Premium halol mahsulotlarimizning keng assortimentini kashf eting"
+    },
+    "featured": {
+      "title": "Tanlangan Mahsulotlar",
+      "subtitle": "Eng yaxshi takliflarimizdan qo'lda tanlangan to'plam"
+    },
+    "categories": {
+      "title": "Kategoriyalar",
+      "subtitle": "Premium tanlovlarimizni ko'rib chiqing"
+    },
+    "featured": {
+      "title": "Tavsiya etilgan mahsulotlar",
+      "subtitle": "Ehtiyotkorlik bilan tanlangan halol sevimlilar"
+    },
+    "about": {
+      "title": "Nega Zaytun?",
+      "subtitle": "Varshavadagi Asosiy Halol Do'koningiz",
+      "description": "Yevropada sifatli halol mahsulotlarni topish qiyinligini tushunamiz. Zaytun sizga asl halol go'sht, pishloq (hayvon fermentsiz), shirinliklar (cho'chqa jelatinsiz) va qat'iy halol standartlariga mos keladigan diqqat bilan tanlangan boshqa mahsulotlarni taqdim etadi."
     }
   },
   "products": {

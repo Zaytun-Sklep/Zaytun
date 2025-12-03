@@ -12,14 +12,16 @@ export function LanguageSwitcher({ currentLang }: { currentLang: string }) {
     // Replace the language segment in the path
     const segments = pathname.split('/');
     segments[1] = newLang;
-    router.push(segments.join('/'));
+    const newPath = segments.join('/');
+    router.push(newPath);
+    router.refresh();
   };
 
   return (
     <select
       value={currentLang}
       onChange={handleLanguageChange}
-      className="bg-transparent border border-gray-300 dark:border-gray-700 rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
+      className="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 cursor-pointer hover:border-emerald-500 transition-colors"
       aria-label="Select Language"
     >
       {languages.map((lang) => (

@@ -22,17 +22,44 @@
   },
   "home": {
     "hero": {
-      "title": "Świeże Mięso Halal",
-      "subtitle": "Najlepsza jakość w Warszawie",
-      "cta": "Zobacz Produkty"
+      "title": "Produkty Halal Premium",
+      "subtitle": "Twoje Zaufane Źródło Jakościowego Mięsa Halal, Serów, Słodyczy i Więcej",
+      "cta": "Odkryj Naszą Ofertę"
     },
     "features": {
       "quality": "Najwyższa Jakość",
-      "qualityDesc": "Najlepsze mięso pochodzące od zaufanych lokalnych farm.",
+      "qualityDesc": "Produkty premium od certyfikowanych dostawców i lokalnych farm.",
       "halal": "100% Halal",
-      "halalDesc": "100% certyfikowane mięso Halal, przygotowane zgodnie z rytuałem islamskim.",
+      "halalDesc": "Wszystkie produkty są w 100% certyfikowane Halal, spełniające najwyższe standardy.",
       "fresh": "Zawsze Świeże",
-      "freshDesc": "Codziennie krojone świeże mięso, aby zapewnić najlepszy smak i konsystencję."
+      "freshDesc": "Codziennie świeżo przygotowywane, aby zapewnić najlepszy smak i jakość.",
+      "variety": "Szeroki Wybór",
+      "varietyDesc": "Od mięsa premium po sery halal, słodycze i artykuły spożywcze.",
+      "trust": "Zaufanie Społeczności",
+      "trustDesc": "Obsługujemy społeczność muzułmańską Warszawy z oddaniem od pierwszego dnia.",
+      "delivery": "Szybka Dostawa",
+      "deliveryDesc": "Szybka i niezawodna usługa dostawy w całej Warszawie."
+    },
+    "categories": {
+      "title": "Poznaj Nasze Kategorie",
+      "subtitle": "Odkryj naszą szeroką gamę produktów halal premium"
+    },
+    "featured": {
+      "title": "Produkty Wyróżnione",
+      "subtitle": "Ręcznie wybrana selekcja naszych najlepszych produktów"
+    },
+    "categories": {
+      "title": "Kategorie",
+      "subtitle": "Przeglądaj nasze premium wybory"
+    },
+    "featured": {
+      "title": "Polecane produkty",
+      "subtitle": "Wyselekcjonowane halalowe przysmaki"
+    },
+    "about": {
+      "title": "Dlaczego Zaytun?",
+      "subtitle": "Twój Główny Sklep Halal w Warszawie",
+      "description": "Rozumiemy wyzwanie znalezienia wysokiej jakości produktów halal w Europie. Zaytun oferuje autentyczne mięso halal, sery (bez enzymu zwierzęcego), słodycze (bez żelatyny wieprzowej) oraz inne starannie wybrane produkty spełniające rygorystyczne standardy halal."
     }
   },
   "products": {

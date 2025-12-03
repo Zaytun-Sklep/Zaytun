@@ -1,34 +1,54 @@
 'use client';
 
 import { useTheme } from '@/lib/theme-context';
-import { Sun, Moon, Monitor } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 export function ThemeToggle({ dict }: { dict: any }) {
   const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
+
+  // Determine the system preference
+  const systemTheme = typeof window !== 'undefined' && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  
+  // Get available options based on current theme
+  const getOptions = () => {
+    if (theme === 'system') {
+      // If system, show system and the opposite of system preference
+      return [
+        { value: 'system', label: `⚙️ ${dict.common.theme.system}` },
+        { value: systemTheme === 'dark' ? 'light' : 'dark', label: systemTheme === 'dark' ? `☀️ ${dict.common.theme.light}` : `🌙 ${dict.common.theme.dark}` }
+      ];
+    } else {
+      // If light or dark, show current and system
+      return [
+        { value: theme, label: theme === 'light' ? `☀️ ${dict.common.theme.light}` : `🌙 ${dict.common.theme.dark}` },
+        { value: 'system', label: `⚙️ ${dict.common.theme.system}` }
+      ];
+    }
+  };
+
+  const options = getOptions();
 
   return (
-    <div className="flex items-center space-x-2 border border-gray-300 dark:border-gray-700 rounded-lg p-1">
-      <button
-        onClick={() => setTheme('light')}
-        className={`p-1 rounded ${theme === 'light' ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
-        aria-label={dict.common.theme.light}
-      >
-        <Sun size={16} />
-      </button>
-      <button
-        onClick={() => setTheme('system')}
-        className={`p-1 rounded ${theme === 'system' ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
-        aria-label={dict.common.theme.system}
-      >
-        <Monitor size={16} />
-      </button>
-      <button
-        onClick={() => setTheme('dark')}
-        className={`p-1 rounded ${theme === 'dark' ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
-        aria-label={dict.common.theme.dark}
-      >
-        <Moon size={16} />
-      </button>
-    </div>
+    <select
+      value={theme}
+      onChange={(e) => setTheme(e.target.value as 'light' | 'dark' | 'system')}
+      className="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 cursor-pointer hover:border-emerald-500 transition-colors"
+      aria-label="Select Theme"
+    >
+      {options.map((option) => (
+        <option key={option.value} value={option.value}>
+          {option.label}
+        </option>
+      ))}
+    </select>
   );
 }
